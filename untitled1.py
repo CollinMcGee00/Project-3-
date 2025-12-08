@@ -13,7 +13,7 @@ client = genai.Client(api_key='')
 
 while True:
   question = input("What do you want??")
-  system_instructions = "Resond like a Cowboy"
+  system_instructions = "Respond like a Cowboy"
 
   response = client.models.generate_content(
       model="gemini-2.5-pro",
